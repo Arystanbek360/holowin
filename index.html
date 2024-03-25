@@ -15,7 +15,7 @@
 
   <link href="css/main.css" rel="stylesheet" />
   <!-- Document Title -->
-  <title>Лендос</title>
+  <title>Holowin</title>
   <style>
     input {
       border-radius: 10px;
@@ -47,7 +47,8 @@
   <header id="home">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light ">
-        <a class="navbar-brand" href="#"><img src="images/logo.svg" alt=""></a>
+        <a class="navbar-brand" href="#"><img src="images/logo.svg" alt="" style="    background: white;
+          border-radius: 50%;"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <div class="interactive-menu-button">
@@ -60,7 +61,7 @@
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
               <!-- Nav Link -->
-              <a class="nav-link" data-scroll href="#home">Home<span class="sr-only">(current)</span></a>
+              <a class="nav-link" data-scroll href="#home">Главная<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <!-- Nav Link -->
@@ -72,7 +73,7 @@
             </li>
             <li class="nav-item">
               <!-- Nav Link -->
-              <a class="nav-link" data-scroll href="#blog">Блог</a>
+              <a class="nav-link" data-scroll href="#blog">Цены</a>
             </li>
             <li class="nav-item">
               <!-- Nav Link -->
@@ -105,9 +106,10 @@
       <img src="images/hero.svg" alt="">
       <div class="container">
         <!-- Hero Title -->
-        <h1 class="text">HOLOWIN </br> Воплощай фантазии в реальность</h1>
+        <h1 class="text">HOLOWIN </h1>
+        <h4>Воплощай фантазии в реальность</br></h4>
         <!-- Hero Title Info -->
-        <p class="text">Мы сделаем все </br> что бы вы отличались на мероприятиях и среди своих конкурентов</p>
+        <p class="text"> Мы сделаем все что бы вы отличались </br> на мероприятиях и среди своих конкурентов</p>
         <div class="hero-btns">
           <!-- Hero Btn First -->
           <a data-scroll href="#about-us" class="text">Больше о нас</a>
@@ -204,7 +206,7 @@
             <div class="photobox photobox_type10">
               <div class="photobox__previewbox">
                 <!-- Replace Patch to Image Under -->
-                <img src="images/2.jpg" class="photobox__preview" alt="Preview">
+                <img src="images/2.jpeg" class="photobox__preview" alt="Preview">
                 <!-- Replace Image Title Under -->
                 <span class="photobox__label">HoloWin</span>
               </div>
@@ -340,6 +342,9 @@
           <div class="col-12 col-lg-4 blog-box blog-second" style="border-radius: 5%;">
             <img src="images/price/Instagram story - 9.png" alt="price" style="border-radius: 5%;">
           </div>
+          <div class="col-12 col-lg-4 blog-box blog-second" style="border-radius: 5%;">
+            <img src="images/price/Instagram story - 10.png" alt="price" style="border-radius: 5%;">
+          </div>
         </div>
         <!-- Blog Button to Show More or Less on Mobile&Tablet View  -->
         <!-- <button class="hide-me" id="blog-btn" style="border-radius: 20%;">Show More Stories</button> -->
@@ -355,28 +360,30 @@
           <h2>Поспеши</h2>
         </div>
       </div>
-      <div class="row">
-        <div class="col-12 col-lg-6 email">
-          <input placeholder="Твой email" type="email" id="email" pattern=".+@globex.com" size="30" required>
-        </div>
-        <div class="col-12 col-lg-6 email">
-          <input placeholder="Имя" type="subject" id="subject" size="30" required>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 message">
-          <textarea id="message" name="message" rows="5" cols="1">Сообщение будет здесь</textarea>
-        </div>
-        <div class="col-12">
-          <div class="hero-btns contact-btn">
-            <!-- Send Message Btn -->
-            <a href="#">Связаться</a>
+      <form id="whatsappForm">
+        <div class="row">
+          <div class="col-12 col-lg-6 email">
+            <input type="text" name="name" placeholder="Ваше имя" size="30" required>
+          </div>
+          <div class="col-12 col-lg-6 email">
+            <input type="tel" name="phone" placeholder="Ваш сотовый номер" size="30" required>
           </div>
         </div>
-      </div>
+        <div class="row">
+          <div class="col-12 message">
+            <!-- <textarea name="message" placeholder="Сообщение" cols="1" rows="5" required></textarea> -->
+            <textarea name="message" placeholder="Хочу заказать услугу 'Название услуги'" cols="1" rows="5"
+              required></textarea>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="hero-btns contact-btn" style="display: block;">
+            <button type="submit">Связаться</button>
+          </div>
+        </div>
+      </form>
     </div>
   </section>
-  <!-- FOOTER SECTION -->
   <footer>
     <div class="container">
       <div class="row">
@@ -384,15 +391,14 @@
           <h5>г.Алматы</h5>
           <h3>Holowin</h3>
           <ul class="contact-nav">
-            <li><a data-scroll href="#home">Home</a></li>
+            <li><a data-scroll href="#home">Главная</a></li>
             <li><a data-scroll href="#about-us">О нас</a></li>
             <li><a data-scroll href="#portfolio">Наши работы</a></li>
-            <li><a data-scroll href="#blog">Отзывы</a></li>
+            <li><a data-scroll href="#blog">Цены</a></li>
             <li><a data-scroll href="#contact-us">Контакт</a></li>
           </ul>
           <h6>© 2024 - Holowin,All Right Reserved</h6>
           <ul class="social">
-            <li><a href="tel:+77055451330"><i class="icofont-phone"></i></a></li>
             <li><a href="https://www.instagram.com/holowin.kz?igsh=bms5OTNob29rNHh2"><i
                   class="icofont-instagram"></i></a></li>
             <li><a href="#"><i class="icofont-whatsapp"></i></a></li>
@@ -413,6 +419,22 @@
   <script src="js/slick.min.js"></script>
   <script src="js/smooth-scroll.min.js"></script>
   <script src="js/main.js"></script>
+  <script>
+    document.getElementById("whatsappForm").addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      let formData = new FormData(event.target);
+      let name = formData.get("name");
+      let phone = formData.get("phone");
+      let message = formData.get("message");
+
+      // let whatsappMessage = `Имя: ${name}%0AНомер: ${phone}%0AСообщение: ${message}`;
+      let whatsappMessage = `Добрый день!%0A%0AХочу оставить заявку с сайта holowin.kz:%0A%0AИмя: ${name}%0AНомер: ${phone}%0AСообщение: ${message}`;
+
+
+      window.open(`https://api.whatsapp.com/send?phone=77077003113&text=${whatsappMessage}`);
+    });
+  </script>
   <!-- Scripts Ends -->
 </body>
 

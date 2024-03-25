@@ -237,7 +237,7 @@ p {
 .interactive-menu-button a span {
   height: 4px;
   position: absolute;
-  background: #314584;
+  background: white;
   text-indent: -999em;
   width: 100%;
   top: 6px;
@@ -248,7 +248,7 @@ p {
 .interactive-menu-button a span:after {
   content: '';
   height: 4px;
-  background: #314584;
+  background: white;
   width: 100%;
   position: absolute;
   top: -6px;
@@ -403,7 +403,8 @@ p {
 
 .side2-img img {
   position: absolute;
-  right: -20px;
+  /* right: -20px; */
+  right: 0px;
   top: 1300px;
 }
 
@@ -520,7 +521,8 @@ p {
 -------------------------------------------------------------*/
 .blog-aside img {
   position: absolute;
-  right: -20px;
+  /* right: -20px; */
+  right: 0px;
   margin-top: 200px;
 }
 
